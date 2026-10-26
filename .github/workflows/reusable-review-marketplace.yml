@@ -40,4 +40,4 @@ jobs:
           path: ./artifacts/llm
           retention-days: 7
 
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
